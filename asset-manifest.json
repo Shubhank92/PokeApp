@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pokiApp/static/css/main.71b8b6fa.chunk.css",
+    "main.js": "/pokiApp/static/js/main.a20ee77f.chunk.js",
+    "main.js.map": "/pokiApp/static/js/main.a20ee77f.chunk.js.map",
+    "runtime-main.js": "/pokiApp/static/js/runtime-main.3d33142b.js",
+    "runtime-main.js.map": "/pokiApp/static/js/runtime-main.3d33142b.js.map",
+    "static/css/2.31461e4f.chunk.css": "/pokiApp/static/css/2.31461e4f.chunk.css",
+    "static/js/2.d47b49aa.chunk.js": "/pokiApp/static/js/2.d47b49aa.chunk.js",
+    "static/js/2.d47b49aa.chunk.js.map": "/pokiApp/static/js/2.d47b49aa.chunk.js.map",
+    "static/js/3.6598678e.chunk.js": "/pokiApp/static/js/3.6598678e.chunk.js",
+    "static/js/3.6598678e.chunk.js.map": "/pokiApp/static/js/3.6598678e.chunk.js.map",
+    "index.html": "/pokiApp/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/pokiApp/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.71b8b6fa.chunk.css.map": "/pokiApp/static/css/main.71b8b6fa.chunk.css.map",
+    "static/js/2.d47b49aa.chunk.js.LICENSE.txt": "/pokiApp/static/js/2.d47b49aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d33142b.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.d47b49aa.chunk.js",
+    "static/css/main.71b8b6fa.chunk.css",
+    "static/js/main.a20ee77f.chunk.js"
+  ]
+}
