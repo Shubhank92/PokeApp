@@ -1,0 +1,88 @@
+.myStyle {
+    background: url('//s3-us-west-1.amazonaws.com/tachyonsio/img/primer.jpg') no-repeat center center;
+    background-size: cover
+}
+
+.attriBorder {
+    border-radius: 3px;
+}
+
+.pdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoColor {
+    background-color: #577590;
+}
+
+.imgBorder {
+    border: black solid 3px;
+    
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.space {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.marAuto{
+    margin: auto;
+    
+}
+
+
+@media screen and (max-width: 800px){
+    .marAuto {
+        width: 100%;
+    }
+    
+    .mediaContent{
+        width: 75vw;
+        height: auto;
+    }
+    .mediaConBox {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .attriBorder {
+        width: 23vw;
+        background-color: #EC7357;
+    }
+    .imgDiv {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .entireContentDiv {
+        flex-direction: column;
+        width: 100%;
+    }
+    .imgDiv {
+        width: 100%;
+        padding: 0px;
+    }
+    .imgBorder {
+        justify-content: center;
+    }
+    .mediaContent {
+        width: 90vw;
+        height: auto;
+    }
+    .attriBorder {
+        width: auto;
+    }
+}
+@media screen and (max-width: 290px){
+    body {
+        min-width: 290px;
+    }
+}
+

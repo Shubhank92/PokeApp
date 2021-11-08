@@ -1,15 +1,15 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Open Sans', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Open Sans', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+    sans-serif; */
+    font-family: 'Bebas Neue', cursive;
+  font-family: 'Oswald', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   height: 100%;
-  color: #0E1116;
-  background-color: #26C485;
-
+  background-color: #fff0f3;
+  color: #17252a
 }
 
 code {

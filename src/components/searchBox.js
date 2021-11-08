@@ -6,7 +6,7 @@ function SearchBox ( {searchChange} ) {
             <input
                 type='search'
                 className="pa3 ba b--green bg-light-blue"
-                placeholder='Search for A Pokemon!'
+                placeholder='Search any Pokemon'
                 onChange={ searchChange }
             />
         </div>

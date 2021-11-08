@@ -1,3 +1,20 @@
 .Color {
-    background-color: #8EA8C3;
+    background-color: #F88379;
+    min-width: 60px;
+}
+
+@media screen and (max-width: 400px){
+    .typeList {
+        width: auto;
+    }
+    h2 {
+        width: auto;
+        font-size: 12px;
+    }
+    .typeLi {
+        width: 30vw;
+    }
+    .singlePok {
+        width: 25vw;
+    }
 }

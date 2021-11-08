@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from './card';
+import Card from './type';
 
-function CardList ( {data, onPokemonSelect} ) {
+function TypeList ( {data, onTypeSelect} ) {
     return (
         <div>
             {
@@ -9,16 +9,15 @@ function CardList ( {data, onPokemonSelect} ) {
                     return (
                         <Card
                             name={data[i].name}
-                            id={data[i].id}
-                            type={data[i].types[0].type.name}
-                            data={data}
-                            onPokemonSelect={onPokemonSelect}
+                            data={data[i]}
+                            key={data[i].name}
+                            onTypeSelect={onTypeSelect}
                         />
                     )
                 })
             }
         </div>
-    )
+    ) 
 }
- 
-export default CardList
+
+export default TypeList
