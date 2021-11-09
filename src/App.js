@@ -99,7 +99,7 @@ class App extends Component {
       this.setState({isLoading: true})
       typeId = this.state.typeUrl.substr(30).replace("/", '').replace("/", '');
         
-      fetch(`http://localhost:3001/singleTypePokemons/${typeId}`)
+      fetch(`https://peaceful-wave-37654.herokuapp.com/singleTypePokemons/${typeId}`)
       .then(res => res.json())
       .then(data => {
         this.setState({ singleTypePokemonExamples: data.pokemon, isLoading: false});
@@ -114,7 +114,7 @@ class App extends Component {
       this.setState({isLoading: true})
       pokeId = this.state.selectedPokemonUrl.substr(33).replace("/", '').replace("/", '');
       
-      fetch(`http://localhost:3001/selectedPokemon/${pokeId}`)
+      fetch(`https://peaceful-wave-37654.herokuapp.com/selectedPokemon/${pokeId}`)
       .then(res => res.json())
       .then(data => {
         this.setState({ selectedPokemonDetails : data, isLoading: false});
@@ -128,7 +128,7 @@ class App extends Component {
 
   componentDidMount() {
 
-    fetch('http://localhost:3001/type')
+    fetch('https://peaceful-wave-37654.herokuapp.com/type')
     .then(res => res.json())
     .then(data => {
       //here we're setting the state
@@ -138,7 +138,7 @@ class App extends Component {
     .catch(err => console.log("Error", err));
 
 
-    fetch('http://localhost:3001/searchBar')
+    fetch('https://peaceful-wave-37654.herokuapp.com/searchBar')
     .then(res => res.json())
     .then(data => {
       this.setState({pokemon: data, isLoading: false})
